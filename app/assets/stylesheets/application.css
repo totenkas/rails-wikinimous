@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+ a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+article {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 120%;
+}
+
+#article-link {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
